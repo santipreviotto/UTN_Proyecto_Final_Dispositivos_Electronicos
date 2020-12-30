@@ -1,1 +1,9 @@
-# UTN_Proyecto_Preamp_De_Bajo
+# Proyecto Final de Dispotivos Electrónicos
+
+##Preamplificador para bajo eléctrico
+
+###Resumen
+
+###Inspiraciones
+
+###Concepto de partida
