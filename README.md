@@ -1,9 +1,9 @@
 # Proyecto Final de Dispotivos Electrónicos
 
-##Preamplificador para bajo eléctrico
+## Preamplificador para bajo eléctrico
 
-###Resumen
+### Resumen
 
-###Inspiraciones
+### Inspiraciones
 
-###Concepto de partida
+### Concepto de partida
