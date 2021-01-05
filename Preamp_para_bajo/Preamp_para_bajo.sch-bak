@@ -1,0 +1,131 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L mysymbols:2N5088 Q1
+U 1 1 5FF433F1
+P 4200 3650
+F 0 "Q1" H 4390 3696 50  0000 L CNN
+F 1 "2N5088" H 4390 3605 50  0000 L CNN
+F 2 "" H 4400 3575 50  0001 L CIN
+F 3 "" H 4200 3650 50  0001 L CNN
+	1    4200 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R3
+U 1 1 5FF43A50
+P 4300 3150
+F 0 "R3" H 4368 3196 50  0000 L CNN
+F 1 "10K" H 4368 3105 50  0000 L CNN
+F 2 "" V 4340 3140 50  0001 C CNN
+F 3 "~" H 4300 3150 50  0001 C CNN
+	1    4300 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 5FF44385
+P 3650 3150
+F 0 "R1" H 3718 3196 50  0000 L CNN
+F 1 "470K" H 3718 3105 50  0000 L CNN
+F 2 "" V 3690 3140 50  0001 C CNN
+F 3 "~" H 3650 3150 50  0001 C CNN
+	1    3650 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R4
+U 1 1 5FF44806
+P 4300 4150
+F 0 "R4" H 4368 4196 50  0000 L CNN
+F 1 "390" H 4368 4105 50  0000 L CNN
+F 2 "" V 4340 4140 50  0001 C CNN
+F 3 "~" H 4300 4150 50  0001 C CNN
+	1    4300 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 5FF452D4
+P 3650 4150
+F 0 "R2" H 3718 4196 50  0000 L CNN
+F 1 "47K" H 3718 4105 50  0000 L CNN
+F 2 "" V 3690 4140 50  0001 C CNN
+F 3 "~" H 3650 4150 50  0001 C CNN
+	1    3650 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3300 4300 3350
+Wire Wire Line
+	4300 3850 4300 4000
+Wire Wire Line
+	4000 3650 3650 3650
+Wire Wire Line
+	3650 3650 3650 4000
+Wire Wire Line
+	3650 3300 3650 3650
+Connection ~ 3650 3650
+Wire Wire Line
+	3650 3000 3650 2750
+Wire Wire Line
+	3650 2750 4300 2750
+Wire Wire Line
+	4300 2750 4300 3000
+Text GLabel 4300 2750 2    50   Input ~ 0
+9V
+Wire Wire Line
+	3650 4300 3650 4450
+Wire Wire Line
+	3650 4450 4300 4450
+Wire Wire Line
+	4300 4450 4300 4300
+$Comp
+L Device:C C1
+U 1 1 5FF47BFE
+P 3400 3650
+F 0 "C1" V 3148 3650 50  0000 C CNN
+F 1 "0.1u" V 3239 3650 50  0000 C CNN
+F 2 "" H 3438 3500 50  0001 C CNN
+F 3 "~" H 3400 3650 50  0001 C CNN
+	1    3400 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 3650 3650 3650
+Text GLabel 4300 4450 2    50   Input ~ 0
+GND
+Text GLabel 3250 3650 0    50   Input ~ 0
+INPCB
+$Comp
+L Device:C C2
+U 1 1 5FF48EA7
+P 4800 3350
+F 0 "C2" V 4548 3350 50  0000 C CNN
+F 1 "0.1u" V 4639 3350 50  0000 C CNN
+F 2 "" H 4838 3200 50  0001 C CNN
+F 3 "~" H 4800 3350 50  0001 C CNN
+	1    4800 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 3350 4650 3350
+Connection ~ 4300 3350
+Wire Wire Line
+	4300 3350 4300 3450
+Text GLabel 4950 3350 2    50   Input ~ 0
+OUTPCB
+$EndSCHEMATC

@@ -6,4 +6,6 @@
 
 ### Inspiraciones
 
+`https://www.coda-effects.com/p/lpb1-circuit-analysis.html`
+
 ### Concepto de partida
